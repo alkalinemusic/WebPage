@@ -5,6 +5,17 @@
 <h2><div align="center">Welcome to my website</div></h2>
 
 <a href="#footer">Jump to bottom of page</a>
+<style>
+  .red-text{
+    color: red;
+  }
+</style>
+<style>
+	.green-text{
+		color: green;
+	}	
+</style>
+
 
 <main>
 <h3>Intro</h3>
@@ -21,7 +32,7 @@
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat tincidunt nisi id hendrerit. Donec pharetra eget quam vel volutpat. 
 -->
 </p>
-<h3>HTML5 elements</h3>
+<h1><div align="center">HTML5 elements</div></h1>
 	<p>
 		<b> !DOCTYPE html,main, img, anchor, header, footer, nav, video, article, section<br></b>
 
@@ -94,7 +105,7 @@
 	As a tester of tech equipment, the testing would often require repitions of the same method to determine when certain situations or failures would occur.<br>
 	I saw my co-workers and myself sitting with pencil and paper placing 100's of these tally marks and knew that there could be a computerized solution.	<br>
 	<p>
-	<a href="https://github.com/alkalinemusic/TickMarks"><img src="https://raw.githubusercontent.com/alkalinemusic/TickMarks/master/Tally_Counter.PNG" alt="The Tally Counter app created for pass/fail count tracking. exists at https://github.com/alkalinemusic/TickMarks.">
+	<a href="https://github.com/alkalinemusic/TickMarks"><img src="https://raw.githubusercontent.com/alkalinemusic/TickMarks/master/Tally_Counter.PNG" alt="The Tally Counter app created for pass/fail count tracking. exists at https://github.com/alkalinemusic/TickMarks."><br>
 	</p>
 </p>
 
@@ -149,6 +160,23 @@
 		&lt;/style&gt;<br>
 	</p>
 		will cause all h2 text to be the color red
+	<p>
+		<h2 class="green-text"><div align="center">Setting a class to style elements</div></h2>
+
+	</p>
+	<p>
+		You can also create a class for a specific color, so you can re-use it by simply recalling the class <br>
+		from within the element.<br>
+		Place this toward the top before your main tags<br>
+		&lt;style&gt;<br>
+		&nbsp&lt;.red-text{<br>
+		&nbsp}color: red;<br>
+		}<br>
+		&lt;/style&gt;<br>
+		Then to call it further down in your page: <br>
+		&lt;h2 class="red-text"&gt;Text goes here&lt;/h2&gt;<br>
+
+	</p>
 
 </p>
 </main>

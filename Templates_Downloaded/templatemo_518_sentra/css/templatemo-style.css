@@ -190,7 +190,7 @@ header {
   width: 303.517px; /*width: 100%;*/
   height: 150px; /* this is the sidebar top block where the title is */
   line-height: 100px;
-  background-color: #45489a;
+  background-color: #900C3F; /* color for top sidebar */
   padding: 20px;
   text-align: center;
 }
@@ -255,6 +255,21 @@ header {
   background-color: transparent;
   border: 2px solid #fff;
   transition: all 0.3s;
+}
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-left: 10px solid #fff;
+  border-bottom: 7px solid transparent;
+}
+.arrow-right { /* added this for a different shape on the left sidebar */
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  
+  border-left: 60px solid green;
 }
 .rect{
   height: 1px;

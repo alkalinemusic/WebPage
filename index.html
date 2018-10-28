@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html>
+<title>Let's Program Now!</title>
+
+<!--<h1><div align="center"> Lets Program Now!</div></h1> -->
+<p><div align="center"><img src='https://lh3.googleusercontent.com/nmkiWjRprUfW0jlp71GOSA1pcZen0A81yMREJtZAhbWWLCVDPR4dubFAerTnMipUVeU07QpjRuZYMCm4358w0hKO4VDXOTDebn9MT7FqoJQFojX7WE9m5rQD8sL-nPzo_lT0nTKlFNs=w2400'  width="280" height="160" alt="Let's Program Now!"></div></a></p>
+
+
+<!--<h2><div align="center">Welcome to my website</div></h2> -->
+
+<a href="#footer">Jump to bottom of page</a>
+<style>
+  .red-text{
+    color: red;
+  }
+</style>
+<style>
+	.green-text{
+		color: green;
+	}	
+</style>
+
+
+<main>
+<h3>Intro</h3>
+<p>This site will serve as a blog, tutorial, as well as a portfolio of my work. 
+   I plan on incorporating many of the projects that I've completed as well as
+   ones that are currently being developed. <br>
+   I would like to start my own programmer blog.<br> 
+   I plan on also incorporating tutorials into the site as well. 
+</p>
+
+<!--   <<<<<< This comments out the entire section
+<h3>Topic 1</h3>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat tincidunt nisi id hendrerit. Donec pharetra eget quam vel volutpat. 
+-->
+</p>
+<h1><div align="center">HTML5 elements</div></h1>
+	<p>
+		<b> !DOCTYPE html,main, img, anchor, header, footer, nav, video, article, section<br></b>
+
+		<br>
+		The very first element to add to the top of the site is the &lt;!DOCTYPE&gt;<br>
+		This is needed to tell the browser which version of html is being used for your site<br>
+		Then the whole page should be wrapped in &lt;html&gt;&lt;/html&gt;<br>
+		<b> main</b> - wrap paragraphs with the main tag helps search engine and other developers <br>
+		find the main content of your page.<br>
+		<b>img src=</b> - adds an image to your page. place the url to your picture within quotes.<br>
+		Add an <b>alt</b> tag to include text which prints if your picture doesn't load for some reason<br>
+		<b>anchor</b> - links to content outside of your webpage.<br>
+		Use the <b>a href</b> element to create this link with the url inside quotes
+		Internal links can be created with the <b>a href="# </b>. This can link to the footer or header of the page.
+		<br>
+		Any information about your page should go into the &lt;header&gt; tags<br>
+		Any content shown to the user should go within the &lt;body&gt; tags<br>
+		<p> A dead link can be created, as a placeholder, by setting the a href="#" such as this <a href="#"target="_blank">This link is dead by design"></a> </p>
+		An image can also be turned into a link by enclosing the picture element inside of a link a href tag.
+		<p><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGYfEe8uYQeagSBdfAQF1SD8brtpyB0HeQt_ytv_prN7fPQzubDA"></a></p>
+		<p>
+			<b>Adding a text entry field</b>
+			Add a text placeholder inside the text entry field
+			<input type="Text" placeholder="This is placeholder text">
+			<p>
+			<code>
+				This is a code example. Simply surround the code with &lt;code&gt;<br></code>
+				this is how you can add an entry field that would submit the entered data to a particular url
+				&lt;form action="/url-where-you-want-to-submit-form-data"&gt;&lt;/form&gt;
+			<p>
+		</p>
+		<p>
+			How to add a submit button<br>
+			&lt;button type="submit"&gt;submit here&lt;/button&gt; <br>
+			<button type="submit">submit here</button><br>
+			The text field can also be made a required field, so the user has to enter something;<br>
+			like this; &lt;input type="text" required &gt;
+		</p>
+		<p>
+			Add radio buttons using the following <br>
+			These will be bound to each other because the use the same name attribute, meaning only <br>
+			one of them can be selected at a time<br>
+			Radio buttons and checkboxes can also be checked by default if desired. Simply add checked to end of input statement <br>
+			    <label for="indoor">
+				  <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+				</label><br>
+				    <label for="outdoor">
+				  <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
+				</label><br>
+				<label>
+					<input id="underwater" type="radio" name="indoor-outdoor" checked>Underwater
+				</label>
+
+		</p>
+		<p>
+			Checkboxes can be added the same way as radio buttons, assigning them to the same name attribute<br>
+			    <label for="super fun"><input id="super fun" type="checkbox" name="personality"> Super fun</label><br>
+    <label for="wicked weird"><input id="wicked weird" type="checkbox" name="personality"> Wicked Weird</label><br>
+    		
+    		<label for="wily"><input id="wily" type="checkbox" name="personality"> Wily</label><br>
+    		</label>
+    		</p>
+	</p>
+
+
+<h3>Tally Counter program</h3>
+<p>
+	<b>Tally Counter for product testing:</b><br>
+	The inspiration for this app was taken from the tried and true method of counting an event's occurrence in fives; drawing 4 vertical lines and the 5th line being diagonal.<br>
+	As a tester of tech equipment, the testing would often require repitions of the same method to determine when certain situations or failures would occur.<br>
+	I saw my co-workers and myself sitting with pencil and paper placing 100's of these tally marks and knew that there could be a computerized solution.	<br>
+	<p>
+	<a href="https://github.com/alkalinemusic/TickMarks"><img src="https://raw.githubusercontent.com/alkalinemusic/TickMarks/master/Tally_Counter.PNG" alt="The Tally Counter app created for pass/fail count tracking. exists at https://github.com/alkalinemusic/TickMarks."><br>
+	</p>
+</p>
+
+<h3>Link to an external site section</h3>
+<p>
+	This allows me to link to an external web page.
+	Follow this link to my github page where you can find all the projects I've completed and/or currently working on.<br>
+	This web page is in there as well.
+	<a href="https://github.com/alkalinemusic"> Check out my github page</a>
+
+</p>
+
+<p>
+	<b>Make a bulleted un-ordered list</b>
+	Enlose the list with ul <<<< with tags of course, and place li in front of the items in the list
+	<ul>
+		<li><strong>task 1</strong></li> the bold is also acheived by tagging with the word strong
+		<li>task 2</li>
+		<li>task 3</li>
+	</ul>
+
+	<b>Make an ordered numbered list</b>
+	<ol>
+		<li>Do this first</li>
+		<li>Do this after the first one</li>
+		<li>Do this last</li>
+	</ol>
+</p>
+
+<p>
+	<h1><div align="center" >CSS</div></h1><br>
+</p>
+<p>
+	<ul>
+		<li> This section will deal with the CSS functions and usage<br></li>
+	</ul>
+</p>
+<p>
+	There are three main ways to apply CSS styling. <br>
+	You can apply inline styles directly to HTML elements with the style attribute. <br>
+	Alternatively, you can place CSS rules within style tags in an HTML document. <br>
+	Finally, you can write CSS rules in an external style sheet, then reference that file in the HTML document.<br> Even though the first two options have their use cases, most developers prefer external style sheets because<br> they keep the styles separate from the HTML elements.
+</p>
+<p>
+	<b><div align="center"> Change the Color of Text</b></div><br>
+		By adding a style and color to your text, you can change its color.<br>
+		&lt;h2 style="color: blue;"&gt;Some text here&lt;/h2&gt;<br> produces the following:<br>
+		<h2 style="color: blue;">Some text here</h2> <br><br>
+		It can be setup at the top of your file to create a style for all particular headings, for example<br>
+		<p style="color: red;">&lt;style&gt;<br>
+ 		 &nbsp;&nbsp;h2 {color: red;}<br>
+		&lt;/style&gt;<br>
+	</p>
+		will cause all h2 text to be the color red
+	<p>
+		<h2 class="green-text"><div align="center">Setting a class to style elements</div></h2>
+
+	</p>
+	<p>
+		You can also create a class for a specific color, so you can re-use it by simply recalling the class <br>
+		from within the element.<br>
+		Place this toward the top before your main tags<br>
+		&lt;style&gt;<br>
+		&nbsp&lt;.red-text{<br>
+		&nbsp}color: red;<br>
+		}<br>
+		&lt;/style&gt;<br>
+		Then to call it further down in your page: <br>
+		&lt;h2 class="red-text"&gt;Text goes here&lt;/h2&gt;<br>
+		Inside the same style tag, you can also control the font size<br>
+		just insert the <b>font-size: ##px;</b> where ## is the number size
+
+	</p>
+	<p>
+		To make a font size for all of one element, use the font-family style <br>
+		Within the &lt;style&gt; place the following, example uses monospace font for all &lt;p&gt; elements<br>
+		&nbsp;&nbsp;&nbsp;p {<br>
+		   font-family: monospace;<br>
+	&nbsp;&nbsp;}<br>
+	</p>
+	<p>
+		Adding an image from your google photos account<br>
+		<ol>
+			<li>Go to <a href="https://www.google.com/photos/about/" target="_blank"><font face="monospace" size="4"> photos.google.com</font></a> and open any image that you wish to embed in your website. </li>
+			<li>Tap the Share Icon and then choose <b>"Get Link"</b> to generate a shareable link for that image.
+</li>  
+			<li>Go to <a href="https://ctrlq.org/google/photos/?_ga=2.73081940.652589554.1506369127-416085520.1506369127" target="_blank"><font face="monospace" size="4"> j.mp/EmbedGooglePhotos,</font></a> paste that link and it will instantly generate the embed code for that picture</li>
+			<li>    Open your website template, paste the generated code and save. The image will now serve directly from your Google Photos account.
+</li>
+		</ol>
+	</p>
+	<p>
+		To make a specific font, color, and size for a section<br>
+		Place the section within the following<br>
+		<font color="red" face="monospace" size="4">&lt;font color="red" face="monospace" size="4"&gt;</font><font color="black" face="sans" size="3"> Don't forget to close the text with </font><font color="red" face="monospace" size="4">&lt;/font&gt;</font>
+	</p>
+
+</p>
+</main>
+<footer id="footer"><b>Lets Program Now!<b></footer>
+</html>

@@ -3,11 +3,37 @@ h2 {
 	text-align: center;
 	}
 
-#sidebarMenu {
+#topnav {
 /*border: 2px solid black;*/
-background-color: gray;
+/*background-color: gray;*/
+background-image: linear-gradient(to left, grey, white);
 width: 120px;
 height: auto;
 padding: 20px;
 background-repeat: no-repeat;
 }
+
+/* navigation bar example from w3schools.com https://www.w3schools.com/css/css_website_layout.asp*/
+
+ /* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Navbar links
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+ Links - change color on hover 
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+} 
+ */

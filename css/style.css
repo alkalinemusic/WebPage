@@ -11,6 +11,10 @@ h2 {
 	color: black;
 	text-align: center;
 	}
+h3 {
+	color: black;
+	text-align: center;
+	}
 
 	/*
 	#topnav {
@@ -26,7 +30,16 @@ background-repeat: no-repeat;
 
 	*/
 
-
+p{
+	font-size: 1em;
+}
+p.sansserif {
+font-family: sans-serif, Arial, Helvetica ;
+font-size: 1.25em;
+}
+p {
+font-size: 20px;
+    }
 
 * {
     box-sizing: border-box;

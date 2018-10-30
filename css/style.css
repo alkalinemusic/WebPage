@@ -59,9 +59,12 @@ body {
 
 /* Style the top navigation bar */
 .topnav {
+	text-align: center;
 	color: rgb(0,0,0);
     overflow: hidden;
     background-color: #498741; /* this is the bar's color */
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 /* Style the topnav links */

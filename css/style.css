@@ -1,11 +1,22 @@
+/* Color picker
+#F2E8D0 Light
+#E6AF23 Yellow
+#498471 Blue-ish
+#9D1C74 Purple-ish
+#0D2F24 Black
+*/
+
+
 h2 {
 	color: black;
 	text-align: center;
 	}
 
-#topnav {
-/*border: 2px solid black;*/
-/*background-color: gray;*/
+	/*
+	#topnav {
+border: 2px solid black;
+background-color: gray;
+
 background-image: linear-gradient(to left, grey, white);
 width: 120px;
 height: auto;
@@ -13,27 +24,67 @@ padding: 20px;
 background-repeat: no-repeat;
 }
 
-/* navigation bar example from w3schools.com https://www.w3schools.com/css/css_website_layout.asp*/
+	*/
 
- /* The navbar container */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
+
+
+* {
+    box-sizing: border-box;
 }
 
-/* Navbar links
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+
+    background-color: #f1f1f1;
+    padding: 20px;
     text-align: center;
-    padding: 20px 16px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+	color: rgb(0,0,0);
+    overflow: hidden;
+    background-color: #498741; /* this is the bar's color */
+}
+
+/* Style the topnav links */
+.topnav a {
+    
+    display: inline-block;
+    color: #F2E8D0;/* the color when hovering over the words*/
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
-
- Links - change color on hover 
+/* Change color on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-} 
- */
+}
+
+.marginOne{
+	margin-left: 100px;
+	margin-right: 100px;	
+}
+.blogBGColor {
+	margin: 0 auto;
+	color: rgb(0,0,0);
+    overflow: hidden;
+    background-color: #E6AF23; /* this is the bar's color */
+    height: 230px;
+    width: auto;
+}
+
+.centerBlogPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+    margin-top: auto;
+    margin-bottom: 50px;
+    width: 306px;
+    height: 230px;
+}

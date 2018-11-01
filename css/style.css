@@ -135,7 +135,7 @@ body {
     padding: 20px; 
     width: 250px;
     height: 200px;  
-    margin-left: 200px;  
+    margin-left: 300px;  
 }
 #rcorners3 {
 	display: inline-block;
@@ -144,9 +144,10 @@ body {
     padding: 20px; 
     width: 250px;
     height: 200px; 
-    margin-left:200px;   
+    margin-left: 250px;   
     margin-right: 200px;
 }
 .cornersText {
 	font-size: 30px;
+	color: #F2E8D0;
 }

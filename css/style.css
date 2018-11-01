@@ -126,3 +126,21 @@ body {
 	height: 450;
 
 }
+
+/* object with rounded corners */
+#rcorners1 {
+    border-radius: 25px;
+    background: #498471;
+    padding: 20px; 
+    width: 250px;
+    height: 200px;  
+    margin: 0 auto;  
+}
+#rcorners3 {
+    border-radius: 25px;
+    background: #9D1C74;
+    padding: 20px; 
+    width: 250px;
+    height: 200px; 
+    margin-left:100px;   
+}

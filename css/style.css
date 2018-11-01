@@ -129,18 +129,24 @@ body {
 
 /* object with rounded corners */
 #rcorners1 {
+	display: inline-block;
     border-radius: 25px;
     background: #498471;
     padding: 20px; 
     width: 250px;
     height: 200px;  
-    margin: 0 auto;  
+    margin-left: 200px;  
 }
 #rcorners3 {
+	display: inline-block;
     border-radius: 25px;
     background: #9D1C74;
     padding: 20px; 
     width: 250px;
     height: 200px; 
-    margin-left:100px;   
+    margin-left:200px;   
+    margin-right: 200px;
+}
+.cornersText {
+	font-size: 30px;
 }

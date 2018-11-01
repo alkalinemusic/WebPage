@@ -66,8 +66,8 @@ body {
 	color: rgb(0,0,0);
     overflow: hidden;
     background-color: #498741; /* this is the bar's color */
-	margin-left: 100px;
-	margin-right: 100px;
+/*	margin-left: 100px;
+	margin-right: 100px;*/
 }
 
 /* Style the topnav links */
@@ -81,7 +81,7 @@ body {
 }
 /* Change color on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #F2E8D0;
     color: black;
 }
 .projectsBanner{
@@ -90,8 +90,8 @@ body {
 	text-align: center;
 	overflow: hidden;
 	padding: 14px 16px;
-	margin-left: 100px;
-	margin-right: 100px;
+/*	margin-left: 100px;
+	margin-right: 100px;*/
 }
 
 .marginOne{
@@ -104,7 +104,7 @@ body {
     overflow: hidden;
     background-color: #E6AF23; /* this is the bar's color */
     height: 230px;
-    width: auto;
+    /*width: auto;*/
 }
 
 .centerBlogPic {

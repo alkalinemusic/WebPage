@@ -4,6 +4,19 @@
 #498471 Blue-ish
 #9D1C74 Purple-ish
 #0D2F24 Black
+Quicksand
+Raleway
+Rubik
+Poppins
+Questrial
+Comfortaa
+
+#FEEEDC light
+#FDB768 peach
+#FB8604 yellow
+#975102 brown-ish
+#342009 dark
+
 */
 
 
@@ -33,9 +46,14 @@ background-repeat: no-repeat;
 p{
 	font-size: 1em;
 
-}
+}/*
 p.sansserif {
 font-family: sans-serif, Arial, Helvetica ;
+font-size: 1.25em;
+}*/
+}
+p.rubik {
+font-family: rubik, Arial, Helvetica ;
 font-size: 1.25em;
 }
 p {
@@ -54,7 +72,7 @@ body {
 /* Style the header */
 .header {
 
-    background-color: #f1f1f1;
+    background-color: #975102;
     padding: 20px;
     text-align: center;
 }
@@ -63,9 +81,9 @@ body {
 .topnav {
 	font-size: 30px;
 	text-align: center;
-	color: rgb(0,0,0);
+	color: #975102;
     overflow: hidden;
-    background-color: #498741; /* this is the bar's color */
+    background-color: #975102; /* this is the bar's color */
 /*	margin-left: 100px;
 	margin-right: 100px;*/
 }
@@ -74,19 +92,19 @@ body {
 .topnav a {
     
     display: inline-block;
-    color: #F2E8D0;/* the color when hovering over the words*/
+    color: #FEEEDC;/* the color when hovering over the words*/
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 /* Change color on hover */
 .topnav a:hover {
-    background-color: #F2E8D0;
+    background-color: #FEEEDC;
     color: black;
 }
 .projectsBanner{
 	font-size: 40px;
-	background-color: #498471;
+	background-color: #FB8604;
 	text-align: center;
 	overflow: hidden;
 	padding: 14px 16px;
@@ -102,7 +120,7 @@ body {
 	margin: 0 auto;
 	color: rgb(0,0,0);
     overflow: hidden;
-    background-color: #E6AF23; /* this is the bar's color */
+    background-color: #FDB768; /* this is the bar's color */
     height: 230px;
     /*width: auto;*/
 }
@@ -133,7 +151,7 @@ body {
 	filter: alpha(opacity=50);
 	display: inline-block;
     border-radius: 25px;
-    background: #498471;
+    background: #FB8604;
     padding: 20px; 
     width: 250px;
     height: 200px;  
@@ -147,7 +165,7 @@ body {
 #rcorners3 {
 	display: inline-block;
     border-radius: 25px;
-    background: #9D1C74;
+    background: #975102;
     padding: 20px; 
     width: 250px;
     height: 200px; 
@@ -156,5 +174,5 @@ body {
 }
 .cornersText {
 	font-size: 30px;
-	color: #F2E8D0;
+	color: #FEEEDC;
 }

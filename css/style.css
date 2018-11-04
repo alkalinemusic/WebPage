@@ -6,7 +6,7 @@
 #0D2F24 Black
 Quicksand
 Raleway
-Rubik
+rubik
 Poppins
 Questrial
 Comfortaa
@@ -52,8 +52,8 @@ font-family: sans-serif, Arial, Helvetica ;
 font-size: 1.25em;
 }*/
 }
-p.rubik {
-font-family: rubik, Arial, Helvetica ;
+p.Quicksand {
+font-family: Quicksand, Arial, Helvetica ;
 font-size: 1.25em;
 }
 p {
@@ -71,7 +71,7 @@ body {
 
 /* Style the header */
 .header {
-
+	font-family: Quicksand, Arial, Helvetica ;
     background-color: #975102;
     padding: 20px;
     text-align: center;
@@ -79,6 +79,7 @@ body {
 
 /* Style the top navigation bar */
 .topnav {
+	font-family: Quicksand, Arial, Helvetica ;
 	font-size: 30px;
 	text-align: center;
 	color: #975102;
@@ -103,6 +104,7 @@ body {
     color: black;
 }
 .projectsBanner{
+	font-family: Quicksand, Arial, Helvetica ;
 	font-size: 40px;
 	background-color: #FB8604;
 	text-align: center;
@@ -111,8 +113,12 @@ body {
 /*	margin-left: 100px;
 	margin-right: 100px;*/
 }
+.genericFontClass{
+	font-family: Quicksand, Arial, Helvetica ;
+}
 
 .marginOne{
+	font-family: Quicksand, Arial, Helvetica ;
 	margin-left: 100px;
 	margin-right: 100px;	
 }
@@ -126,6 +132,7 @@ body {
 }
 
 .centerBlogPic {
+	font-family: Quicksand, Arial, Helvetica ;
     display: block;
     margin-left: auto;
     margin-right: auto;*/
@@ -135,6 +142,7 @@ body {
     height: 230px;
 }
 .centerTallyPic {
+	font-family: Quicksand, Arial, Helvetica ;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -163,6 +171,7 @@ body {
 
 }
 #rcorners3 {
+	font-family: Quicksand, Arial, Helvetica ;
 	display: inline-block;
     border-radius: 25px;
     background: #975102;
@@ -173,6 +182,7 @@ body {
     margin-right: 200px;
 }
 .cornersText {
+	font-family: Quicksand, Arial, Helvetica ;
 	font-size: 30px;
 	color: #FEEEDC;
 }

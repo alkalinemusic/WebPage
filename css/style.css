@@ -17,6 +17,12 @@ Comfortaa
 #975102 brown-ish
 #342009 dark
 
+#FEF1DC light pink
+#FFC266 orange
+#9780FE blue
+#FCFC78 yellow
+#FDFDB9 light orange-yellow
+#979772 grey
 */
 
 
@@ -82,9 +88,9 @@ body {
 	font-family: Quicksand, Arial, Helvetica ;
 	font-size: 30px;
 	text-align: center;
-	color: #975102;
+	color: #9780FE;
     overflow: hidden;
-    background-color: #975102; /* this is the bar's color */
+    background-color: #9780FE; /* this is the bar's color */
 /*	margin-left: 100px;
 	margin-right: 100px;*/
 }
@@ -93,14 +99,14 @@ body {
 .topnav a {
     font-size: 40px;
     display: inline-block;
-    color: #FEEEDC;/* the color when hovering over the words*/
+    color: #FEF1DC;/* the color when hovering over the words*/
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 /* Change color on hover */
 .topnav a:hover {
-    background-color: #FEEEDC;
+    background-color: #FEF1DC;
     color: black;
 }
 .projectsBanner{
@@ -108,7 +114,7 @@ body {
 	text-decoration: none;
 	font-family: Quicksand, Arial, Helvetica ;
 	font-size: 40px;
-	background-color: #FB8604;
+	background-color: #9780FE;
 	text-align: center;
 	overflow: hidden;
 	padding: 14px 16px;
@@ -116,27 +122,27 @@ body {
 	margin-right: 100px;*/
 }
 .projectsBanner:link {
-    color: #FB8604;
+    color: #9780FE;
 }
 
 /* visited link */
 .projectsBanner:visited {
-    color: #FB8604;
+    color: #9780FE;
 }
 
 /* mouse over link */
 .projectsBanner:hover {
-    color: #FB8604;
+    color: #9780FE;
 }
 
 /* selected link */
 .projectsBanner:active {
-    color: #FB8604;
+    color: #9780FE;
 }
 .blogBanner{
 	font-family: Quicksand, Arial, Helvetica ;
 	font-size: 40px;
-	background-color: #FB8604;
+	background-color: #9780FE;
 	text-align: center;
 	overflow: hidden;
 	padding: 14px 16px;
@@ -146,7 +152,7 @@ body {
 .tutorialsBanner{
 	font-family: Quicksand, Arial, Helvetica ;
 	font-size: 40px;
-	background-color: #FB8604;
+	background-color: #9780FE;
 	text-align: center;
 	overflow: hidden;
 	padding: 14px 16px;
@@ -199,7 +205,7 @@ body {
 	filter: alpha(opacity=50);
 	display: inline-block;
     border-radius: 25px;
-    background: #FB8604;
+    background: #9780FE;
     padding: 20px; 
     width: 250px;
     height: 200px;  
@@ -214,7 +220,7 @@ body {
 	font-family: Quicksand, Arial, Helvetica ;
 	display: inline-block;
     border-radius: 25px;
-    background: #975102;
+    background: #9780FE;
     padding: 20px; 
     width: 250px;
     height: 200px; 
@@ -224,7 +230,7 @@ body {
 #helloPythonPic {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
-    border-radius: 25px 50px;
+    border-radius: 50px;
     background: url(img/StockSnap_HCEKP2VVVX_Hello02.jpg);
     background-position: left top;
     background-repeat: repeat;
@@ -239,5 +245,5 @@ body {
 .cornersText {
 	font-family: Quicksand, Arial, Helvetica ;
 	font-size: 30px;
-	color: #FEEEDC;
+	color: #FEF1DC;
 }

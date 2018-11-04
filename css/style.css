@@ -131,9 +131,9 @@ body {
 }
 
 /* mouse over link */
-.projectsBanner:hover {
+/*.projectsBanner:hover {
     color: #9780FE;
-}
+}*/ /* this actually makes the word projects disappear in the separate projects page */
 
 /* selected link */
 .projectsBanner:active {

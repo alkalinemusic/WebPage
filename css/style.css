@@ -84,8 +84,10 @@ body {
 }
 
 .underImage01 {
-	opacity: 0.2;
-	position: relative;
+	overflow: hidden;
+	display: block;
+	opacity: 0.4;
+	/*position: relative;*/
 	width: 2000px;
 	height: 250px;
 }

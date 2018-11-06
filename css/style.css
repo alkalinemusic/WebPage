@@ -83,6 +83,19 @@ body {
     text-align: center;
 }
 
+.underImage01 {
+	opacity: 0.2;
+	position: relative;
+	width: 2000px;
+	height: 250px;
+}
+.overImage01 { 
+	position:absolute; 
+	top: 50px; 
+	left: 500px; 
+	z-index: 1; 
+}
+
 /* Style the top navigation bar */
 .topnav {
 	font-family: Quicksand, Arial, Helvetica ;

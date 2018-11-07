@@ -20,6 +20,7 @@ Comfortaa
 #FEF1DC light pink
 #FFC266 orange
 #9780FE blue
+#9700FE slightly darker blue using for code formatting
 #FCFC78 yellow
 #FDFDB9 light orange-yellow
 #979772 grey
@@ -261,4 +262,16 @@ body {
 	font-family: Quicksand, Arial, Helvetica ;
 	font-size: 30px;
 	color: #FEF1DC;
+}
+
+pre code {
+  background-color: #FEF1DC;
+  border-radius: 30px;
+  text-align: left;
+  font-family: Quicksand;
+  font-size: 30px;
+  color: #9700FE;
+  border: 1px solid #999;
+  display: block;
+ 
 }

@@ -75,6 +75,10 @@ font-size: 30px; /* paragraph font size */
 body {
   margin: 0;
 }
+.QuicksandII {
+	font-family: Quicksand, Arial, Helvetica
+	font-size: 1.00em;
+}
 
 /* Style the header */
 .header {
@@ -266,9 +270,10 @@ body {
 
 pre code {
   background-color: #FEF1DC;
-  border-radius: 30px;
+  border-radius: 5px;
   text-align: left;
-  font-family: Quicksand;
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+
   font-size: 30px;
   color: #9700FE;
   border: 1px solid #999;

@@ -18,7 +18,7 @@ Comfortaa
 #342009 dark
 
 #FEF1DC light pink
-#FFC266 orange
+#	 orange
 #9780FE blue
 #9700FE slightly darker blue using for code formatting
 #FCFC78 yellow
@@ -92,6 +92,7 @@ body {
 	overflow: hidden;
 	display: block;
 	opacity: 0.4;
+	filter: blur(3px);
 	/*position: relative;*/
 	width: 2000px;
 	height: 250px;

@@ -314,3 +314,18 @@ pre code {
   display: block;
  
 }
+
+#social #container {
+  text-align: center;
+}
+
+#social #container ul {
+  float: left;
+}
+
+#social #container ul li {
+  float: left;
+  padding-left: 10px;
+  list-style-type: none;
+  width: 50%;
+}

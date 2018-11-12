@@ -159,6 +159,22 @@ body {
 .projectsBanner:active {
     color: #9780FE;
 }
+#TallyMarksPic {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	display: inline-block;
+    border-radius: 50px;
+    background: url(img/TallyMarks02.png);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 306px;
+    height: 230px;
+}
+#TallyMarksPic:hover{
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
 .blogBanner{
 	font-family: Quicksand, Arial, Helvetica ;
 	font-size: 40px;
@@ -250,6 +266,7 @@ body {
 #helloPythonPic {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
+	display: inline-block;
     border-radius: 50px;
     background: url(img/StockSnap_HCEKP2VVVX_Hello02.jpg);
     background-position: left top;
